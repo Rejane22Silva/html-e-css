@@ -8,16 +8,22 @@
     <Style>
       body {
         height: 100vh;
-        background-color: black;
+        /*background-color: black;
         background-image: url(ex022/imagens/wallpaper002.jpg);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;*/
 
+        /* Shorthand background
+        color . image > position > repeat > {size} > <attachment></attachment>*/
+
+        background: black url(ex022/imagens/wallpaper002.jpg) center center no-repeat fixed;
+        background-size: cover;
       }
       main {
         background-color: white;
-        width: 400px;
+        max-width: 700px;
         padding: 10px;
         margin: auto;
         border: 1px solid darkblue;
@@ -28,7 +34,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quaerat expedita unde reiciendis debitis iure cupiditate cumque natus. Quia eius iusto voluptatibus! Tenetur autem alias, delectus inventore distinctio maiores eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatum libero error iure exercitationem nobis repudiandae ipsa, quidem cupiditate tempore est iusto accusantium totam omnis? Minus quam esse ipsum commodi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error odit reprehenderit aspernatur corrupti consequatur reiciendis quis eius iste neque ex sint corporis ratione sequi qui libero, aliquam perspiciatis nam pariatur?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error odit reprehenderit aspernatur corrupti consequatur reiciendis quis eius iste neque ex sint corporis ratione sequi qui libero, aliquam perspiciatis nam pariatur?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quaerat expedita unde reiciendis debitis iure cupiditate cumque natus. Quia eius iusto voluptatibus! Tenetur autem alias, delectus inventore distinctio maiores eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatum libero error iure exercitationem nobis repudiandae ipsa, quidem cupiditate tempore est iusto accusantium totam omnis? Minus quam esse ipsum commodi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error odit reprehenderit aspernatur corrupti consequatur reiciendis quis eius iste neque ex sint corporis ratione sequi qui libero, aliquam perspiciatis nam pariaturLorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quaerat expedita unde reiciendis debitis iure cupiditate cumque natus. Quia eius iusto voluptatibus! Tenetur autem alias, delectus inventore distinctio maiores eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatum libero error iure exercitationem nobis repudiandae ipsa, quidem cupiditate tempore est iusto accusantium totam omnis? Minus quam esse ipsum commodi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error odit reprehenderit aspernatur corrupti consequatur reiciendis quis eius iste neque ex sint corporis ratione sequi qui libero, aliquam perspiciatis nam pariaturLorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quaerat expedita unde reiciendis debitis iure cupiditate cumque natus. Quia eius iusto voluptatibus! Tenetur autem alias, delectus inventore distinctio maiores eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatum libero error iure exercitationem nobis repudiandae ipsa, quidem cupiditate tempore est iusto accusantium totam omnis? Minus quam esse ipsum commodi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error odit reprehenderit aspernatur corrupti consequatur reiciendis quis eius iste neque ex sint corporis ratione sequi qui libero, aliquam perspiciatis nam pariatur</p>
         
 
     </main>
